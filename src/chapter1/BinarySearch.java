@@ -9,7 +9,7 @@ public class BinarySearch {
     public static int rank(int key, int[] a) {
         int lo = 0;
         int hi = a.length - 1;
-        while (lo <=hi) {
+        while (lo <= hi) {
             int mi = (lo + hi) / 2;
             if (key < a[mi]) {
                 hi = mi - 1;
@@ -23,15 +23,23 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] whitelist = { 6, 4, 3, 2, 1 };
+        int[] whitelist = In.readInts(args[0]);
         Arrays.sort(whitelist);
-        System.out.println("排序后:");
-        for (int num : whitelist) {
-            System.out.print(num);
-            System.out.print(" ");
+        while (!StdIn.isEmpty()) {
+            int key = StdIn.readInt();
+            if (rank(key, whitelist) < 0) {
+                StdOut.println(key);
+            }
         }
-        System.out.println();
-        int result = BinarySearch.rank(2, whitelist);
-        System.out.println(result);
+        // int[] whitelist = { 6, 4, 3, 2, 1 };
+        // Arrays.sort(whitelist);
+        // System.out.println("排序后:");
+        // for (int num : whitelist) {
+        // System.out.print(num);
+        // System.out.print(" ");
+        // }
+        // System.out.println();
+        // int result = BinarySearch.rank(2, whitelist);
+        // System.out.println(result);
     }
 }
