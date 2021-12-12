@@ -5,6 +5,10 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import util.In;
+import util.StdIn;
+import util.StdOut;
+
 public class BinarySearch {
     public static int rank(int key, int[] a) {
         int lo = 0;
