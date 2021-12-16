@@ -1,3 +1,4 @@
+
 package chapter1;
 
 import java.io.File;
@@ -9,7 +10,7 @@ import util.In;
 import util.StdIn;
 import util.StdOut;
 
-public class BinarySearch {
+public class Practice_1_1_28 {
     public static int rank(int key, int[] a) {
         int lo = 0;
         int hi = a.length - 1;
@@ -31,21 +32,21 @@ public class BinarySearch {
         Arrays.sort(whitelist);
         System.out.println(args[0]);
         System.out.println(Arrays.toString(whitelist));
-        while (!StdIn.isEmpty()) {
-            int key = StdIn.readInt();
-            if (rank(key, whitelist) < 0) {
-                StdOut.println(key);
+        int len = whitelist.length;
+        int[] arr = new int[len];
+        int indexOfArr = 0;
+        arr[indexOfArr] = whitelist[0];
+        for (int i = 1; i < len; ++i) {
+            if (arr[indexOfArr] != whitelist[i]) {
+                arr[++indexOfArr] = whitelist[i];
             }
         }
-        // int[] whitelist = { 6, 4, 3, 2, 1 };
-        // Arrays.sort(whitelist);
-        // System.out.println("排序后:");
-        // for (int num : whitelist) {
-        // System.out.print(num);
-        // System.out.print(" ");
+        System.out.println(Arrays.toString(arr));
+        // while (!StdIn.isEmpty()) {
+        // int key = StdIn.readInt();
+        // if (rank(key, whitelist) < 0) {
+        // StdOut.println(key);
         // }
-        // System.out.println();
-        // int result = BinarySearch.rank(2, whitelist);
-        // System.out.println(result);
+        // }
     }
 }
