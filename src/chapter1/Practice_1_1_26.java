@@ -41,7 +41,8 @@ public class Practice_1_1_26 {
 
     public static void main(String[] args) {
         // System.out.println(12);
-        double res1 = binomial2Start(100, 50, 0.25);
+        double res1 = binomial(100, 50, 0.25);
+        // double res1 = binomial2Start(100, 50, 0.25);
         System.out.println(res1);
     }
 }
