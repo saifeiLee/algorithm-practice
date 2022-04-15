@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.section1;
 
 public class Practice_1_1_29 {
     public static int rank(int key, int[] a) {

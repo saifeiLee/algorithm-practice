@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.section4;
 
 import util.StdOut;
 

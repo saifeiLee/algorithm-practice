@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.section1;
 
 import util.StdDraw;
 import util.StdRandom;

@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.section1;
 
 /**
  * <Algorithm> 4th ed. 1.1.26练习题
