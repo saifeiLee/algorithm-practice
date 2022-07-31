@@ -2,7 +2,7 @@ package chapter2.section1;
 
 @SuppressWarnings("unchecked")
 public class SelectionSort {
-    public static void sort(Comparable[] a)
+    public static void sort(ComparableBase[] a)
     {
         int N = a.length;
         for (int i = 0; i < N; i++) {
@@ -12,7 +12,7 @@ public class SelectionSort {
                         minIndex = j;
                 }
             }
-            Comparable temp = a[i];
+            ComparableBase temp = a[i];
             a[i] = a[minIndex];
             a[minIndex] = temp;
         }
