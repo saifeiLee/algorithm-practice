@@ -1,5 +1,7 @@
 package chapter2.section1;
 
+import edu.princeton.cs.algs4.StdOut;
+
 @SuppressWarnings("unchecked")
 public class SelectionSort extends Example {
     public static void sort(Comparable[] a) {
