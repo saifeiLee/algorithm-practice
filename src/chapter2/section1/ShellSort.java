@@ -1,8 +1,8 @@
 package chapter2.section1;
 
-public class ShellSort {
+public class ShellSort extends Example{
     @SuppressWarnings("unchecked")
-    public static void shellSort(ComparableBase[] array) {
+    public static void shellSort(Comparable[] array) {
         int N = array.length;
         int h = 1;
         while (h < N / 3) {
