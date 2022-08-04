@@ -23,11 +23,12 @@ public class MergeBU {
     public static void sort(Comparable[] a) {
         int N = a.length;
         aux = new Comparable[N];
-        for (int sz = 1; sz < N; sz = sz + sz) {
+        for (int sz = 1; sz < N; sz = sz + sz) {    // sz 子数组大小
             for (int lo = 0; lo < N - sz; lo += sz + sz) {
                 merge(a, lo, lo + sz - 1, Math.min(lo + sz + sz - 1, N - 1));
             }
 
         }
     }
+
 }
