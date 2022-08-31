@@ -6,9 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import util.In;
-import util.StdIn;
-import util.StdOut;
+import edu.princeton.cs.algs4.In;
 
 public class Practice_1_1_28 {
     public static int rank(int key, int[] a) {

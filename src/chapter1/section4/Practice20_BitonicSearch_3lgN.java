@@ -1,6 +1,6 @@
 package chapter1.section4;
 
-import util.StdOut;
+import edu.princeton.cs.algs4.StdOut;
 
 public class Practice20_BitonicSearch_3lgN {
 

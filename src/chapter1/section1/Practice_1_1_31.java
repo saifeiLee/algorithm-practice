@@ -1,7 +1,7 @@
 package chapter1.section1;
 
-import util.StdDraw;
-import util.StdRandom;
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdRandom;
 
 public class Practice_1_1_31 {
     public static void drawRandConn(int N, double p) {

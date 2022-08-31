@@ -80,7 +80,7 @@ public class PriorityQueue<Key extends Comparable<Key>> {
                     && ArrayUtil.more(priorityQueue[selectedChildIndex], priorityQueue[index])) ||
                     orientation == Orientation.MIN
                             && ArrayUtil.less(priorityQueue[selectedChildIndex], priorityQueue[index])) {
-                ArrayUtil.exchange(priorityQueue, selectedChildIndex, index);s
+                ArrayUtil.exchange(priorityQueue, selectedChildIndex, index);
             } else {
                 break;
             }

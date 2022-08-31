@@ -1,7 +1,7 @@
 package graph.section1;
 
 import chapter1.section3.Bag;
-import util.In;
+import edu.princeton.cs.algs4.In;
 
 public class Graph {
     private final int V;

@@ -1,6 +1,5 @@
 package chapter1.section1;
 
-import util.StdDraw;
 
 public class Practice1_32 {
 

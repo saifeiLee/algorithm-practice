@@ -1,6 +1,6 @@
 package chapter1.section4;
 
-import util.StdOut;
+import edu.princeton.cs.algs4.StdOut;
 
 public class Practice_1_4_19 {
     public static void main(String[] args) {

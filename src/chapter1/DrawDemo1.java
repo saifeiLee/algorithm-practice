@@ -1,6 +1,6 @@
 package chapter1;
 
-import util.StdDraw;
+import edu.princeton.cs.algs4.StdDraw;
 
 public class DrawDemo1 {
     public static void draw() {
